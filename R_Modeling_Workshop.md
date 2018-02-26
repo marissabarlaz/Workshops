@@ -121,7 +121,7 @@ Let's say we want to determine if there is a predictable relationship between ar
 plot(ubdb$t1y, ubdb$f1)
 ```
 
-![](R_Modeling_Workshop_files/figure-markdown_github/lm1-1.png)
+![](lm1-1.png)
 
 It looks like the relationship is linear (specifically, of the form y=mx+b+e) based on a first glance at the data. We can model the relationship between these two variables using the *lm()* function.
 
@@ -172,7 +172,7 @@ par(mar = c(4, 4, 2, 2), mfrow = c(2, 2))
 plot(lm1)
 ```
 
-![](R_Modeling_Workshop_files/figure-markdown_github/lm3-1.png)
+![](lm3-1.png)
 
 ``` r
 lmtest::bptest(lm1)
