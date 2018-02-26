@@ -1,6 +1,7 @@
 R Modeling Workshop
 ================
 Marissa Barlaz
+
 February 26 & 28, 2018
 
 What is the point?
